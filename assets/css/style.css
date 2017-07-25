@@ -1,0 +1,190 @@
+
+
+
+
+p {	
+
+color: #777777;
+}
+
+header {
+	width:100%;	
+  	padding-top: 0px;
+  	background: #ffffff;
+  	border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+  	z-index: 1;
+  	min-height: 100px;
+}
+
+ul {
+	margin-left: 20%;
+}
+
+h2 {
+
+	color: #4aaaa5;
+}
+
+h3 {
+font-size: 14px;
+
+}
+
+h4 {
+
+	font-size: 14px;
+	color: #4aaaa5;
+	font-family: arial;
+
+}
+
+nav {
+
+	float:right;
+	margin-right: 10px;
+	padding-top: 25px;
+	font-family: arial;
+	font-size: 15px;
+	color:#ccc;
+}
+
+
+#container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url("../images/crossword.png");
+	float: left;
+	width: 100%;
+	border-bottom-color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+	
+}
+
+
+
+#myName {
+
+	background-color: #4aaaa5;
+	padding-top: 25px;
+	float: left;
+	width:200px;
+	height: 75px;
+	z-index: 100;
+	margin-left: 50px;
+	text-align: center;
+
+}
+
+
+#pageContent {
+	background-color: white;
+	margin-left: 50px;
+	width: 50%;
+	float: left;
+	height: auto;
+	border-color: #eeeeee;
+	border-width: 3px;
+	border-style: solid;
+	padding:25px;
+	margin-bottom: 10px;
+	min-width: 320px;
+	text-align: justify;
+	letter-spacing: 2px;
+
+
+}
+
+
+
+form {
+
+	font-family: arial;
+	color: #777777;
+	padding: 20px;
+} 
+
+
+#myPortfolioleft {
+
+	text-align: center;
+	float: left;
+	padding: 10px;
+	vertical-align: top;
+}
+
+#myPortfolioRight {
+
+	float: right;
+	padding: 10px;
+}
+
+#contactMe {
+	
+    justify-content:space-between;
+	float: left;
+	width:320px;
+	margin-left: 50px;
+	background-color: white;
+	height: auto;
+	border-color: #eeeeee;
+	border-width: 3px;
+	border-style: solid;
+	padding:15px;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+footer {
+	float: left;
+	font-family: arial;
+	text-align: center;
+	background-color: #666666;
+	height:50px;
+	padding-top: 10px;
+	width: 100%;
+	
+  	
+}
+
+.icon {
+	display: flex;
+	float: left;
+	justify-content:space-between;
+}
+
+img {
+
+	float: left;
+	padding-left:20px;
+	padding-right: 20px;
+	vertical-align:top;
+}
+
+hr {
+	color: grey;
+	width: 95%;
+	border-width: 2px;
+
+}
+
+
+
+
+
+
+.list {
+	justify-content: left;
+	align-content: left;
+	align-items: left;
+	list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.list
